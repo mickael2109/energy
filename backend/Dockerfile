@@ -16,4 +16,4 @@ RUN npm run build
 EXPOSE 4000
 
 # Lancer le serveur Node.js compilé
-CMD ["node", "dist/index.js"]
+CMD ["node", "dist/server.js"]
